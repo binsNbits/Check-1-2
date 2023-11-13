@@ -1,0 +1,2 @@
+# srch_strings searches for printable strings in a file -- same as strings but can also print the offset at which a string was found
+# srch_strings

@@ -1,0 +1,8 @@
+# create django project
+- django admin startproject <any name here> .
+
+# run svr
+python3 manage.py runserver
+
+# create app
+python3 manage.py stratapp <appname>

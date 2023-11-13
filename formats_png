@@ -1,0 +1,19 @@
+
+# PNG Specifications
+# https://en.wikipedia.org/wiki/Portable_Network_Graphics
+# https://www.w3.org/TR/2003/REC-PNG-20031110/#5Chunk-layout
+
+## -  the PNG signature (first eight bytes of a PNG datastream) must be 137 80 78 71 13 10 26 10 (decimal) or 89 50 4E 47 0D 0A 1A 0A (hex)
+## - After the header come a series of chunks. Each chunk starts with 4 bytes for the length of the chunk, 4 bytes for the type, then the chunk content itself (with the length declared earlier) 
+## and 4 bytes of a checksum. See the "5.3 Chunk layout" section of https://www.w3.org/TR/2003/REC-PNG-20031110/#5Chunk-layout  for more information
+
+## - The first chunk is called IHDR and has the length of 0xD, so we know that the next 8 bytes are 00 00 00 0D 49 48 44 52 (hex)
+
+## CRC ERROR --- The CRC error means that either the checksum (CRC value) is corrupted, or the data is
+
+
+## pHYs CHUNK
+#---------------
+## - Pixels per unit --> X axis 4 bytes (PNG unsigned integer) --> aa 00 16 25
+## - Pixels per unit --> Y axis 4 bytes (PNG unsigned integer) --> 00 00 16 25
+## - Unit specifier  --> 1 byte --> 01

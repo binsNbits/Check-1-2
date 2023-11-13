@@ -1,0 +1,5 @@
+# Tools useful for media
+
+# paplay -- is used to play back or record raw or encoded audio streams on a PulseAudio sound server
+# paplay -d virtual-cable youraudiofile.wav
+

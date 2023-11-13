@@ -1,0 +1,23 @@
+# Useful tools for file operations and processes 
+
+# binwalk extracts hidden files out of files
+- binwalk 
+
+# xxd dumps the formatted hex version of a file
+- xxd
+
+# objdump displays information from object files 
+- objdump
+
+# exiftool provides metadata about a file
+- exiftool
+
+# pdftotext generates a text-file-version of a pdf file
+- pdftotext
+
+# tr - translates or delete characters and is very useful for viewing "invisible" text in a file
+# ex: cat file.txt | tr [:blank:] [@] <-- turns all blank-spaces into '@'s
+- tr
+
+# dd converts and copies files
+dd 

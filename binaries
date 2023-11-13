@@ -1,0 +1,21 @@
+# Tools for analysing binary files
+#####################################
+
+# ldd prints shared object dependencies
+# ldd
+
+# ltrace is a library call tracer
+# ltrace
+
+# readelf is a tool that displays information about ELF files
+# readelf
+
+# objdump displays information from an object file
+# objdump
+
+# strace traces system calls and signals
+# strace
+
+# nm lists symbols from object files
+# nm
+

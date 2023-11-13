@@ -1,0 +1,33 @@
+# github repo that provides infor on various file formats 
+# https://github.com/corkami/formats
+
+# formats listed
+# -----------------
+# - png
+# - dicom
+# - JPEGRGB_dissected.png
+# - JPEGstructure.pdf
+# - JPEGstructure.png
+# - JPEGsyntax.png
+# - JPEGsyntax.svg
+# - PNGBasicStruct.png
+# - PNGBasicStruct.svg
+# - PNGRGB_dissected.png
+# - jpeg.md
+#- rgb.jpg
+# - rgb.png
+#
+# encoding:
+# ----------
+# - utf8
+# 
+# container: 
+# ----------
+# - mp4
+# 
+# archive:
+# ----------
+# - APPNOTE.md
+# - RAR.md
+# - TECHNOTE.TXT
+# - ZIP.md

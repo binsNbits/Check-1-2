@@ -1,0 +1,10 @@
+# Different encodings of types of whitespaces
+#----------------------------------------------
+
+# Standard whitespace -> 0x20
+
+
+# - EM Space
+# An em space is a typographical space measuring one em in width. Traditionally, for a font that uses the Latin alphabet, 
+# an em space is approximately the width of a capital letter M.
+# Unicode EM SPACE -------------------> 0xE2 0x80 0x83

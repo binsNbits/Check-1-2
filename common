@@ -1,0 +1,4 @@
+gets - Can result in buffer overflows
+strcpy - Can result in buffer overflows
+strcat - Can result in buffer overflows
+strcmp - Can result in timing attacks

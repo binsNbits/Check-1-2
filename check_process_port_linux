@@ -1,0 +1,1 @@
+sudo lsof -i -n -P | grep LISTEN | grep <port_number>
