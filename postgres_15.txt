@@ -1,0 +1,36 @@
+#### Install ####
+
+# sudo apt-get install gnupg2 wget curl -y
+
+# sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+# wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+
+# sudo apt -y update && sudo apt -y upgrade 
+
+# sudo apt-get install postgresql-15 -y
+
+# Enable 
+## sudo systemctl start postgresql && sudo systemctl enable postgresql
+
+############################################################################################
+
+#  Check Status
+## sudo systemctl status postgresql
+
+# Restart
+## sudo systemctl restart postgresql
+
+# # Stop
+## sudo systemctl stop postgresql
+
+##############################################################################################
+
+#### Common Commands #### 
+## Login
+# sudo -u postgres psql
+
+## Change superuser (postgres) password
+# \password postgres
+
+

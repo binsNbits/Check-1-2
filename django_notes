@@ -1,5 +1,5 @@
 # create django project
-- django admin startproject <any name here> .
+django-admin startproject <any name here> .
 
 # run svr
 python3 manage.py runserver
