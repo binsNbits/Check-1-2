@@ -1,0 +1,5 @@
+# hciconfig
+# hcitool
+# sdptool
+# l2ping
+
