@@ -1,0 +1,2 @@
+eog your_image_file.jpg
+feh your_image_file.jpg

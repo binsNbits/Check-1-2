@@ -1,0 +1,5 @@
+
+#CPSR#
+The status of the currently operating process in ARM is stored in the
+CPSR (Current Program Status Register)
+

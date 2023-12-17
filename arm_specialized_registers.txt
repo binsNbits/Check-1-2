@@ -1,0 +1,6 @@
+Specialized:
+R11 Frame pointer (FP)
+R12 Intra-procedure register (IP)
+R13 Stack pointer (SP)
+R14 Link register (LR)
+R15 Program counter (PC)

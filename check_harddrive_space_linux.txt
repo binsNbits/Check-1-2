@@ -1,0 +1,7 @@
+#df -h
+The -h option stands for "human-readable" and will display the sizes in a more easily readable format (e.g., in gigabytes, megabytes). The output will show information about each mounted file system along with the used and available disk space.
+
+# du -h --max-depth=1 /
+This command will display the disk usage of each directory under the root directory (/). Adjust the path as needed. The --max-depth=1 option ensures that it only shows the immediate subdirectories and their sizes.
+
+Keep in mind that you might need administrative privileges (sudo) to access certain directories and get accurate disk usage information.

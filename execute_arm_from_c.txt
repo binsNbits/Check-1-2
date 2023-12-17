@@ -1,0 +1,38 @@
+# ARM64 assembly code:
+
+'''
+
+    .global    my_function
+    .type      my_function, "function"
+    .p2align   4
+my_function:
+    add        x0, x0, x1
+    ret
+
+'''
+
+
+# C code:
+
+'''
+
+#include <stdio.h>
+
+extern int my_function(int a, int b);
+
+int main()
+{
+   int a = 4;
+   int b = 5;
+   printf("Calling assembly function my_function with x0=%d and x1=%d results in %d\n", a, b, my_function(a, b));
+   return (0);
+}
+
+'''
+
+
+# build and run
+
+gcc -g -o out_a64 src/HelloWorld.c src/my_assembly.s
+
+./out_a64
